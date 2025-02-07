@@ -1,0 +1,9 @@
+{
+	"name": "dadabidatafact",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4208dc9e-16ea-4d79-83a9-236c4a59e4e9",
+		"tenantId": "a8eec281-aaa3-4dae-ac9b-9a398b9215e7"
+	}
+}

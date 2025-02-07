@@ -1,0 +1,17 @@
+{
+	"name": "Snowflakeconnect",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "vra44033.east-us-2.azure.snowflakecomputing.com",
+			"user": "User_1",
+			"database": "PtLsp_DB",
+			"warehouse": "PtLs_WH",
+			"role": "MAIN_USER",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU4QjdFREI5LTg2NTYtNDM5MC1BRjhFLTBDODg2M0I5NTcyMV9jYmI4MGVlZi05MjNhLTQwODctYmY5MS04ZTc0YjRmYWRkMWYiDQp9"
+		}
+	}
+}
