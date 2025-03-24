@@ -1,0 +1,9 @@
+{
+	"name": "Latearrival",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0e494da-81fe-4859-837f-afcba8464414",
+		"tenantId": "a8eec281-aaa3-4dae-ac9b-9a398b9215e7"
+	}
+}

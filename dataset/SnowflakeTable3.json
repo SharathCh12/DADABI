@@ -1,0 +1,66 @@
+{
+	"name": "SnowflakeTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "INVOICE_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "CUSTOMER_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "INVOICE_DATE",
+				"type": "DATE"
+			},
+			{
+				"name": "SHIP_TO",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "SHIP_TO_CITY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "SHIP_TO_COUNTRY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "SALESPERSON_PERSON_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "SALESPERSON_NAME",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "TOTAL_PRODUCT_CNT",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "TOTAL",
+				"type": "FLOAT"
+			}
+		],
+		"typeProperties": {
+			"schema": "ETL_SCHEMA",
+			"table": "STAGING_SALES_DATA"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
